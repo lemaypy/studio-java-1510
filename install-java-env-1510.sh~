@@ -12,6 +12,8 @@ cd /opt/java/install
 git clone https://github.com/lemaypy/studio-java-1510.git
 cd studio-java-1510
 
+#permissions pour accéder au share de vbox
+./vbox-shared-permissions.sh
 #install google chrome
 ./chrome.sh
 #install oracle-jdk8
