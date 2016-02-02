@@ -1,4 +1,4 @@
-apt-get install git
+sudo apt-get install -y git
 echo "Please enter git name: "
 read gitname
 echo "Please enter git email: "

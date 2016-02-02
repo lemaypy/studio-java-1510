@@ -1,7 +1,5 @@
-#permissions pour accéder au share de vbox
-./vbox-shared-permissions.sh
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y && sudo apt-get autoremove
+sudo init 6
 
-apt-get update && apt-get upgrade && apt-get dist-upgrade
-#install git
-./git.sh
+
 
